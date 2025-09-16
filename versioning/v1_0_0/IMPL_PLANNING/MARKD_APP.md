@@ -65,54 +65,51 @@
     - Making charts is difficult for example 
     - When I have tab suggestions turned on it straightens them up when you save 
 
-```
-            | Shortcut         | Action                | 
-            | ---------------- | --------------------- | 
-            | CMD + O          | Open                  |
-            | CMD + S          | Save                  |
-            | CMD + shift + S  | Save As               |
-            | CMD + W          | Close                 |
-            | CMD + Q          | Quit                  |
-            | CMD + M          | Minimize              |
-            | CMD + H          | Hide                  |
-            | CMD + N          | New document          |
-            | CMD + shift + N  | New email             |
-            | CMD + P          | Print                 |
-            | CMD + E          | Export PDF            |
-            | CMD + shift + E  | Export HTML           |
-            | CMD + return     | Send email            |
-            | CMD + R          | Reply                 |
-            | CMD + shift + R  | Reply all             |
-            | CMD + F          | Forward               |
-            | CMD + U          | Mark as unread        |
-            | CMD + shift + A  | Attachment            |
-            | CMD + Z          | Undo, Undo send       |
-            | CMD + shift + Z  | Redo                  |
-            | CMD + X          | Cut                   |
-            | CMD + C          | Copy                  |
-            | CMD + V          | Paste                 |
-            | CMD + A          | Select all            |
-            | CMD + /          | Toggle shortcut sheet |
-            | CMD + ,          | Open settings         |
-            | delete           | Archive message       |
-            | CMD + delete     | Delete message        |
-            | CMD + shift + J  | Message to junk       |
-            | CMD + option + J | Empty junk folder     |
-            | CMD + R          | Refresh inbox         |
-            | CMD + T          | Toggle AI chat        |
-            | CMD + shift + T  | AI continue writing   |
-```
+| Shortcut                                      | Action                | 
+| --------------------------------------------- | --------------------- | 
+| <kbd>CMD</kbd> <kbd>O</kbd>                   | Open                  |
+| <kbd>CMD</kbd> <kbd>S</kbd>                   | Save                  |
+| <kbd>CMD</kbd> <kbd>shift</kbd> <kbd>S</kbd>  | Save As               |
+| <kbd>CMD</kbd> <kbd>W</kbd>                   | Close                 |
+| <kbd>CMD</kbd> <kbd>Q</kbd>                   | Quit                  |
+| <kbd>CMD</kbd> <kbd>M</kbd>                   | Minimize              |
+| <kbd>CMD</kbd> <kbd>H</kbd>                   | Hide                  |
+| <kbd>CMD</kbd> <kbd>N</kbd>                   | New document          |
+| <kbd>CMD</kbd> <kbd>shift</kbd> <kbd>N</kbd>  | New email             |
+| <kbd>CMD</kbd> <kbd>P</kbd>                   | Print                 |
+| <kbd>CMD</kbd> <kbd>E</kbd>                   | Export PDF            |
+| <kbd>CMD</kbd> <kbd>shift</kbd> <kbd>E</kbd>  | Export HTML           |
+| <kbd>CMD</kbd> <kbd>return</kbd>              | Send email            |
+| <kbd>CMD</kbd> <kbd>R</kbd>                   | Reply                 |
+| <kbd>CMD</kbd> <kbd>shift</kbd> <kbd>R</kbd>  | Reply all             |
+| <kbd>CMD</kbd> <kbd>F</kbd>                   | Forward               |
+| <kbd>CMD</kbd> <kbd>U</kbd>                   | Mark as unread        |
+| <kbd>CMD</kbd> <kbd>shift</kbd> <kbd>A</kbd>  | Attachment            |
+| <kbd>CMD</kbd> <kbd>Z</kbd>                   | Undo, Undo send       |
+| <kbd>CMD</kbd> <kbd>shift</kbd> <kbd>Z</kbd>  | Redo                  |
+| <kbd>CMD</kbd> <kbd>X</kbd>                   | Cut                   |
+| <kbd>CMD</kbd> <kbd>C</kbd>                   | Copy                  |
+| <kbd>CMD</kbd> <kbd>V</kbd>                   | Paste                 |
+| <kbd>CMD</kbd> <kbd>A</kbd>                   | Select all            |
+| <kbd>CMD</kbd> <kbd>/</kbd>                   | Toggle shortcut sheet |
+| <kbd>CMD</kbd> <kbd>,</kbd>                   | Open settings         |
+| <kbd>delete</kbd>                             | Archive message       |
+| <kbd>CMD</kbd> <kbd>delete</kbd>              | Delete message        |
+| <kbd>CMD</kbd> <kbd>shift</kbd> <kbd>J</kbd>  | Message to junk       |
+| <kbd>CMD</kbd> <kbd>option</kbd> <kbd>J</kbd> | Empty junk folder     |
+| <kbd>CMD</kbd> <kbd>R</kbd>                   | Refresh inbox         |
+| <kbd>CMD</kbd> <kbd>T</kbd>                   | Toggle AI chat        |
+| <kbd>CMD</kbd> <kbd>shift</kbd> <kbd>T</kbd>  | AI continue writing   |
 
   * **Advanced shortcuts currently used a lot in Cursor** 
 
   - Highlight a word and add markdown formatting or punctuation and the word is automatically wrapped 
-    - Highlight word, `SHIFT + *` = italics; also works for _
-    - Highlight word, `SHIFT + **` = bold; also works for __ 
-    - Highlight word, `'` = wrapped single apostrophe 
+    - Highlight word, <kbd>SHIFT</kbd> <kbd>*</kbd> = italics; also works for <kdb>_</kbd>
+    - Highlight word, <kbd>SHIFT</kbd> <kdb>**</kbd> = bold; also works for <kbd>__</kdb> 
+    - Highlight word, <kbd>'</kbd> = wrapped single apostrophe 
       - Shift for double 
-      - Use ` key for inline code wrap 
-      - And ~~ for strikeout 
-      - Use $ for whatever it means to wrap a word in two dollar signs 
+      - Use <kbd>`</kdb> key for inline code wrap 
+      - And <kbd>~~</kdb> for strikeout 
       - Etc. if you know more standard markdown shortcuts than I do 
   - When you type the first parenthesis both show up and your cursor starts inside them
     - This one has logic that when done you can hit the end parenthesis to move along 
@@ -142,4 +139,7 @@
     | > Before a series of sequential lines  | Creates a blockquote of that text       |
     | ![alt text](image.jpg)                 | Shows image at URL with alt. text added |
     |  - [ ] or - [x] in a list              | Shows an empty or checked list box      | 
-
+    | | table | content |                    | Renders looking like a formal table     |
+    | --- on a line by itself                | Horizontal line page break              | 
+    | $inline math$ or $$block math$$        | Script like proper written equations    | 
+    | <kbd>shift</kbd>                       | Key text appears on not-functional key  |
