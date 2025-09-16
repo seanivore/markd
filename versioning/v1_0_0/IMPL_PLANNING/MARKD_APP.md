@@ -47,7 +47,7 @@
   9. No smart/curved quotes or apostrophes or dashes or even links; even pasted text just pastes as plain text markdown 
   10. Use dark background for windows; can be altered by user 
 
-### Additional Settings 
+### Shortcuts and Syntax  
 
   * **Reviewed TextEdit, Apple Mail, Cursor menus and pulled essential shortcuts** 
 
@@ -84,7 +84,7 @@
             | CMD + R          | Reply                 |
             | CMD + shift + R  | Reply all             |
             | CMD + F          | Forward               |
-            | CMD + shift + U  | Mark as unread        |
+            | CMD + U          | Mark as unread        |
             | CMD + shift + A  | Attachment            |
             | CMD + Z          | Undo, Undo send       |
             | CMD + shift + Z  | Redo                  |
@@ -118,3 +118,28 @@
     - This one has logic that when done you can hit the end parenthesis to move along 
     - Or you can use the arrow key to move out 
     - It works the same for brackets and any-number-of curly brackets 
+
+  * **List of markdown syntax to save for a help screen** 
+
+    | Markdown Characters Used               | Rendered Result in PDF/HTML/Email       |
+    | -------------------------------------- | --------------------------------------- | 
+    | [Portfolio](www.portfolio.com)         | Hyperlinked 'Portfolio' displayed only  | 
+    | [hey@email.com](mailto:hey@email.com)  | Email opens new email; phone works too  | 
+    | [Chapter 2](#chapter-2)                | Anchor-linked 'Chapter 2' displayed     |
+    | *italics* or _italics_                 | 'italics' appears in italics only       |
+    | **bold** or __bold__                   | 'bold' appears with bold styling only   | 
+    | # Title                                | H1 or Title Size Text                   | 
+    | ## Section                             | H2 main page sections heading size      | 
+    | ### Chapter of Section                 | H3 section chapter's heading size       | 
+    | #### Part of Chapter                   | H4 chapter part's heading size          | 
+    | ##### and ###### rest of sizes         | H5 and H6, in total H1 to H6            |
+    | - Unordered list item                  | Looks like a normal bullet point        | 
+    | * or + Unordered list item             | Same bullet; helps when editing only    | 
+    | 1. Ordered list item                   | Looks like a normal numbered list       | 
+    | `backtick each side`                   | In-line code formatting                 | 
+    | ``` above and below code ```           | Write horizontally, creates code embed  |
+    | ~~cross something out~~                | Shows as strikeout when rendered        |
+    | > Before a series of sequential lines  | Creates a blockquote of that text       |
+    | ![alt text](image.jpg)                 | Shows image at URL with alt. text added |
+    |  - [ ] or - [x] in a list              | Shows an empty or checked list box      | 
+
